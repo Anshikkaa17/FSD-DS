@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.fcontaner{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+.fitem{
+    background-color: rgb(9, 148, 148);
+    padding: 10px;
+    border: 3px solid rgb(16, 15, 15);
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 9;
+}
