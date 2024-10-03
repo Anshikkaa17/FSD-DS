@@ -1,0 +1,24 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}#myid{
+    background-color: aqua;
+    font-size: 20px;
+}
+#myid2{
+    background-color: rgb(122, 218, 218);
+    font-size: 20px;
+
+}
+.myid{
+    color: rgb(3, 26, 18);
+}  */
+/* div + p{
+    background-color: bisque;
+    font-size: 30px;
+    
+} */
+div ~ p{
+    background-color: aquamarine;
+}

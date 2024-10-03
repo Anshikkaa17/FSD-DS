@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.fcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column-reverse; */
+    flex-direction: row;
+    height: 300px;
+    border: 2px solid rgb(234, 104, 104);
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    justify-content: space-between;   
+    align-items: center;
+
+}
+.fitem{
+    
+    width: 100px;
+    height: 100px;
+    background-color: rgb(15, 102, 93);
+    font-size: 15px;
+    border-color: rgb(10, 10, 10);
+    border-width: 10px;
+    border-style: double;
+    margin: 20px;
+    padding: 10px;
+    
+}
+.item1{
+    order: 2;
+    flex-grow: 4;
+
+}
+.item4{
+    order: -1;
+    flex-grow: 3;
+}
